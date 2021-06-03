@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./website2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <title>Travel Website Landing Page</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="./Videos/Pexels Videos 1550080.mp4" muted loop autoplay></video>
+      
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring The World</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit nihil a quibusdam in deserunt, corrupti asperiores omnis similique perspiciatis ipsam?</p>
+        <a href="#">Explore</a>
+      </div>
+
+      <ul class="social">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script src="https://kit.fontawesome.com/3bc1104935.js" crossorigin="anonymous"></script>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+  </body>
+</html>
+
+<!-- Video by Tom Fisk from Pexels: https://www.pexels.com/video/a-rocky-coast-1550080/ -->
+<!-- Website tutorial by Traversy Medis: https://www.youtube.com/watch?v=8MgpE2DTTKA -->
