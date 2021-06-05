@@ -130,12 +130,14 @@
 .social li{
   list-style: none;
 }
-.social li a{
+.social li a i{
   display: inline-block;
-  filter: invert(1);
+  color: #fff;
   margin-right: 20px;
-  transform: scale(0.5);
+  padding-bottom: 10px;
+  transform: scale(1.2);
   transition: 0.5s;
+  z-index: 100;
 }
 .social li a:hover{
   transform: scale(0.5) translate(-15px);
